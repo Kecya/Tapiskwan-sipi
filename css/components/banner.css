@@ -1,0 +1,18 @@
+.banner{
+	background-image: url("../../images/photocouchersoleil.jpg");
+	background-size: cover;
+	height: 750px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+
+
+
+
+}
+
+.banner p {
+	text-align: center;
+
+
+}

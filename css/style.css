@@ -1,0 +1,116 @@
+ @import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+ 	
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+  /* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+ body {
+background-color: #F5E5FC
+}
+
+
+
+h1 {
+
+	color:#00416d ;
+	font-family:  'Ranchers', cursive;
+	text-align: center;
+}
+
+h2 {
+  color:#e0ece4;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+img{
+ width: 550px;
+}
+
+p {
+
+	color:#00416d ;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+.case{
+   width: 600px;
+  margin: 30px auto;
+  padding: 16px;
+  text-align: center;
+  background-color: grey;
+  border-radius: 8px;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h2{
+  color:#00416d ;
+  font-family:  'Ranchers', cursive;
+  text-align: center;
+  font-size: 40px;
+  width: 55px;
+
+}
+
+
+a{
+  display: inline-block;
+  width: 120px;
+  padding: 10px;
+  background-color: #667eea;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px auto; 
+
+}
+
+a:hover {
+  text-decoration: none;
+  background: #B4D6D3;
+}
+
+#menucase{
+  background-color: grey;
+  margin-top: 100px auto;
+   }
+
+.container{
+  width: 700px;
+  margin:60px auto;
+}
+
+@media (max-width: 720px){
+  .container{
+    width: 550px;
+  }
+}
+
+@media(max-width: 550px){
+  .container{
+    width: 200px;
+  }
+}
+
+
+}
+
+#videoclic {
+  background-color: grey;
+  height: 20px;
+  display: inline-block;
+   
+  }
+#clicfaceboob {
+  width: 20px
+  margin: 20px 20px;
+  
+}
